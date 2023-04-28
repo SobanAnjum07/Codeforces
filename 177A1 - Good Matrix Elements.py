@@ -9,11 +9,11 @@ if __name__ == '__main__':
         l = list(map(int, input().split()))
         
         if i == ((n-1)/2):
-            hehe = sum(l)
+            mid_row = sum(l)
         else:
             s += l[dgnl] + l[sec_dgnl] + l[mid_col]
         
         dgnl += 1
         sec_dgnl -= 1
-    s += hehe
+    s += mid_row
     print(s)
