@@ -1,4 +1,4 @@
-
+# unoptimized approach
 # def sol(n: int, k: int , lst: list):
 #     left = 0
 #     right = len(lst)-1
@@ -31,7 +31,7 @@
         
 #     return lst.count(0)
             
-            
+#? optimized approach (accepted)
 def sol(n: int, k: int , lst: list):
     if sum(lst) <= k: return n
     
