@@ -1,8 +1,13 @@
 
 
+def sol(s, n):
+    pass
+    
 
 
 if __name__ == "__main__":
     
     for _ in range(int(input())):
-        pass
+        n = int(input())
+        s = input()
+        print(sol(s, n))
