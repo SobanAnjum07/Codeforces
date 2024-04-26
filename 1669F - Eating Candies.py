@@ -9,6 +9,7 @@ def sol(weights: list, n:int):
         
     right_pre_sum = 0
     right_sum_lst = [0] * n
+    
     for i in range(n-1, -1, -1):
         right_pre_sum += weights[i]
         right_sum_lst[i] = (right_pre_sum)
