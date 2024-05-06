@@ -25,6 +25,5 @@ if __name__ == "__main__":
         
         print(sol(s, int(n), c))
     
-    
-    
+
     
