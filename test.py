@@ -19,13 +19,18 @@ input = sys.stdin.readline
         return (index_green[-1] + 1) - (index_ele[0]+1)
 """
 
+def sol(n:int , k:int) -> int:
+    check = (k-1) // (n-1)
+    return k + check
+    
+    
+
 if __name__ == "__main__":
     
     for _ in range(int(input())):
-        n = int(input())
-        s = input().strip()
+        n , k = map(int, input().strip().split())
         
-        print(sol(n, s))
+        print(sol(n, k))
     
 
     

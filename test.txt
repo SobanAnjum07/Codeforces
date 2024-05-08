@@ -1,15 +1,7 @@
-7
 6
-aaabcc
-10
-aaaaaaaaaa
-6
-abcdef
-7
-abacaba
-6
-cccfff
-4
-abba
-5
-ababa
+3 7
+4 12
+2 1000000000
+7 97
+1000000000 1000000000
+2 1
