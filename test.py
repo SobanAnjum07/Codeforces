@@ -1,6 +1,3 @@
-import sys
-from collections import defaultdict
-input = sys.stdin.readline
 
 
 
@@ -19,18 +16,35 @@ input = sys.stdin.readline
         return (index_green[-1] + 1) - (index_ele[0]+1)
 """
 
-def sol(n:int , k:int) -> int:
-    check = (k-1) // (n-1)
-    return k + check
-    
-    
+import sys
+from collections import defaultdict
+input = sys.stdin.readline
 
+
+
+
+def sol(n:int, lst:list) -> int:
+    prev = lst[0]
+    prev1 = lst[1]
+    
+    hash_map = defaultdict(int)
+    
+    for ele in lst:
+        hash_map[ele] += 1
+        
+    val = hash_map.values()
+    print(val)
+    return lst.index(min(hash_map[val[0]], hash_map[val[1]]))
+        
+        
+    
 if __name__ == "__main__":
     
     for _ in range(int(input())):
-        n , k = map(int, input().strip().split())
+        n = int(input())
+        lst = list(map(int, input().strip().split()))
         
-        print(sol(n, k))
+        print(sol(n, lst))
     
 
     
