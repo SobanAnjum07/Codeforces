@@ -17,8 +17,8 @@
 """
 
 import sys
-from collections import defaultdict
 input = sys.stdin.readline
+from collections import defaultdict
 
 def sol(n:int, lst:list) -> int:
     prev = lst[0]
@@ -35,13 +35,7 @@ def sol(n:int, lst:list) -> int:
         
         
     
-if __name__ == "__main__":
-    
-    for _ in range(int(input())):
-        n = int(input())
-        lst = list(map(int, input().strip().split()))
-        
-        print(sol(n, lst))
+
     
 
     
