@@ -20,9 +20,6 @@ import sys
 from collections import defaultdict
 input = sys.stdin.readline
 
-
-
-
 def sol(n:int, lst:list) -> int:
     prev = lst[0]
     prev1 = lst[1]
