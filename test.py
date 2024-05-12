@@ -1,21 +1,3 @@
-
-
-
-# 5 r
-#! rggry
-# ? [0, 3] [1, 2]
-
-
-"""def sol(s:str, n:int, c:str):
-    index_ele  = [index for index, char in enumerate(s) if char == c]
-    index_green = [index for index, char in enumerate(s) if char == "g"]
-    
-    if index_green[-1] > index_ele[0]:
-        return index_green[-1] - index_ele[0] + 1
-    else:
-        return (index_green[-1] + 1) - (index_ele[0]+1)
-"""
-
 import sys
 input = sys.stdin.readline
 from collections import defaultdict
@@ -33,9 +15,3 @@ def sol(n:int, lst:list) -> int:
     print(val)
     return lst.index(min(hash_map[val[0]], hash_map[val[1]]))
         
-        
-    
-
-    
-
-    
