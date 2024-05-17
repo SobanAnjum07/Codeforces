@@ -1,9 +1,7 @@
-8
-codeforces
-aaaaa
-xxxxy
-co
-d
-nutdealer
-mwistht
-hhhhhhhhhh
+6
+2
+3
+4
+5
+998244353
+1099511627776
