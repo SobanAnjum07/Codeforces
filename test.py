@@ -1,7 +1,7 @@
 import sys
 input = sys.stdin.readline
 
-def sol1(n, lst1, lst2):
+def sol(n):
     pass
 if __name__ == "__main__":
     
