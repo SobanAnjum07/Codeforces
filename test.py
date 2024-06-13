@@ -1,6 +1,5 @@
 import sys
 input = sys.stdin.readline
-
 def sol(n):
     pass
 
