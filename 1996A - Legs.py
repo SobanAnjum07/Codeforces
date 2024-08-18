@@ -1,5 +1,3 @@
-
-#  a as a substring and b as a subsequence.
 def sol(n):
    
     mod_num = n // 4
