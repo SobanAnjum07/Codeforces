@@ -1,15 +1,21 @@
 def sol(n ,t, books:list):
     
-    books.sort()
+    max_books = 0
+    total_time = 0
+    i = 0
     
-    l , r = 0 , n
-    max_len = 0
-    
-    while l<r:
-        current_sum = sum(books[l:r])
+    for j in range(n):
         
-        if current_sum > 
-    pass
+        total_time += books[j]
+        
+        while total_time > t:
+            total_time -= books[i]
+            i += 1
+            
+        max_books = max(max_books, j - i + 1)
+    
+    return max_books
+    
 
 if __name__ =="__main__":
     
