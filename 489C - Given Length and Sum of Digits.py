@@ -4,7 +4,7 @@ def sol(m:int, s:int):
     
     #! largest
     
-    remaining_sum = s ;largest = ""
+    remaining_sum = s ; largest = ""
     
     for i in range(m):
         
